@@ -1,0 +1,57 @@
+{
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "target",
+          "type": "address"
+        },
+        {
+          "internalType": "string",
+          "name": "targetAbi",
+          "type": "string"
+        },
+        {
+          "internalType": "string",
+          "name": "selector",
+          "type": "string"
+        },
+        {
+          "internalType": "bytes[]",
+          "name": "args",
+          "type": "bytes[]"
+        },
+        {
+          "internalType": "uint256",
+          "name": "frequency",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "expiration",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "gasLimit",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "maxGasPrice",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "deposit",
+          "type": "uint256"
+        }
+      ],
+      "name": "createCron",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ]
+}
